@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  width: 90%;
+  z-index: 10;
+  background: rgba(234, 234, 234, 0.8);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 1rem auto 0 auto;
+  border-radius: 3rem;
+  left: 0;
+  right: 0;
+  position: fixed;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header h1 {
+  margin: 1rem auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.home-page {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-page .images-section {
+  display: table;
+  width: 80%;
+  margin: auto;
+  padding-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.home-page .images-section h2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.image-card {
+  display: inline-block;
+  margin: 1.3rem;
+  cursor: pointer;
+}
+
+.image-card img {
+  width: 300px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: .5rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.image-card img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0 30px 10px rgba(202, 202, 202, 0.587);
+          box-shadow: 0 0 30px 10px rgba(202, 202, 202, 0.587);
+}
+
+button {
+  margin-top: 6rem;
+}
+/*# sourceMappingURL=main.css.map */
