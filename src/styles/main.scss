@@ -4,16 +4,15 @@ body{
     font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
+   // padding-bottom: 5rem;
     justify-content: center;
 }
 
 .header{
     width: 90%;
     z-index: 10;
- //   margin-top: 0;
     background: rgba(234, 234, 234, 0.8);
     backdrop-filter: saturate(180%) blur(10px);
-   // background-color: white;
     height: fit-content;
     margin: 1rem auto 0 auto;
     border-radius: 3rem;
@@ -30,15 +29,14 @@ body{
 
 .home-page{
     width: 100%;
+    height: 100%;
     justify-content: center;
-    // height: 100vh;
     
     .images-section{
-      display: table;
-    //  height: 400px;
-      // overflow-y: scroll;
+      display: flex;
       width: 80%;
       margin:auto;
+      height: 100%;
       padding-top: 6rem;
       margin-bottom: 2rem;
 
@@ -49,7 +47,7 @@ body{
     }
 }
 .image-card{
-  display: inline-block;
+  display: flex;
   margin:1.3rem;
   cursor: pointer;
   
@@ -65,4 +63,22 @@ body{
         box-shadow: 0 0 30px 10px rgba(202, 202, 202, 0.587);
       }
     }
+}
+
+.List {
+  border: 1px solid #d9dddd;
+  margin: auto;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+}
+
+.ListItemEven,
+.ListItemOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ListItemEven {
+  background-color: #f8f8f0;
 }
